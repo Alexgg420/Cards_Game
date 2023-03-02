@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(../fonts/CaesarDressing-Regular.ttf);
+}
+
+* {box-sizing:border-box;} 
+
+body{
+    background-image: url(../img/textura.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*********************** ESTILO DE HEADER *************************/
+
+header {
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgba(89, 89, 89, 0.5);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+  
+/*************** ESTILO TÍTULOS ****************/
+  
+h1 {
+    font-family: 'titulo', cursive;
+}
+
+
+.cartas{
+    margin-top: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.carta{
+    margin: auto;
+}
+
+.carta img{
+    padding:1px;
+    width: 70px;
+}
