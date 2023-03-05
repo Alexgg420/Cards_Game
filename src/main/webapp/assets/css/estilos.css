@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(../fonts/CaesarDressing-Regular.ttf);
+}
+@font-face {
+    font-family: 'fontbody';
+    src: url(../fonts/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    ;
+    box-sizing:border-box;
+}
+
+body {
+    background-image:url("../img/free-casino-table-cloth-texture-1637741.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: rgba(89, 89, 89, 0.5);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+  
+h1 {
+    font-family: 'titulo', cursive;
+}
+
+h2 {
+    font-family: 'fontbody', cursive;
+}
+
+h3 {
+    font-family: 'fontbody', cursive;
+}
+
+.indexbody {
+    text-align: center;
+}
+
+.start {
+    text-align: center;
+}
+
+.start a {
+    text-decoration: none;
+    text-align: center;
+    color: gold;
+    background-color: rgba(128, 128, 128, 0.462);
+    padding: auto;
+}
+
+.boton {
+    text-align: right;
+}
+
+.botonderecha {
+    border: none;
+    color: gold;
+    font-family: 'fontbody', cursive;
+    background-color:rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.conttiem {
+    position: absolute;
+    text-align: center;
+    font-family: 'fontbody', cursive;
+    color: gold;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cartas {
+    margin-top: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.carta {
+    margin: auto;
+}
+
+.carta img {
+    padding:1px;
+    width: 70px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.carta img:hover{
+    transform: scale(1.2);
+}
+
+.endbody {
+    text-align: center;
+}
